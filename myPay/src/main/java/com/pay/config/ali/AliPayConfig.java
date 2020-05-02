@@ -13,10 +13,23 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class AliPayConfig {
+    /**
+     * 支付宝的appId
+     */
     public static final String ALIPAY_APP_APPID = "****";
 
+    /**
+     *  商户私钥
+     */
     public static final String ALIPAY_PRIVATE_KEY = "***";
+
+    /**
+     * 支付宝公钥
+     */
     public static final String ALIPAY_PUBLIC_KEY = "***";
+    /**
+     * 支付宝网关地址： 沙箱环境用：https://openapi.alipaydev.com/gateway.do
+     */
     public static final String ALIPAY_GATEWAY_URL = "https://openapi.alipay.com/gateway.do";
 
     public static final String SIGN_TYPE = "RSA2";
