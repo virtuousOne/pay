@@ -1,44 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a4b3d5-19d0-4f18-8821-7e2a41671bf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_qrcode_utils_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_common_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_miniapp_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_mp_3_7_8_B.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_pay_3_7_8_B.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_wxpay_wxpay_sdk_0_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_http_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_upload_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/util/weChat/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/util/weChat/WeChatPayUtil.java" afterDir="false" />
+    <list default="true" id="90a4b3d5-19d0-4f18-8821-7e2a41671bf3" name="Default Changelist" comment="策略模式优化支付代码">
+      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/bean/constant/PayTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/factory/ApplicationContextHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/factory/PayFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/service/impl/AppAliPayServiceImPl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/service/impl/H5AliPayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/service/impl/WeChatPayServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPay/myPay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myPay/myPay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myPay/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPay/src/main/java/com/pay/bean/weChat/WeChatPayDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/bean/weChat/WeChatPayDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPay/src/main/java/com/pay/config/ali/AliPayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/config/ali/AliPayConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPay/src/main/java/com/pay/config/weChat/WeChatConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/config/weChat/WeChatConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPay/src/main/java/com/pay/controller/weChat/WeChatPayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/controller/weChat/WeChatPayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPay/src/main/java/com/pay/controller/weChat/WeChatPayNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myPay/src/main/java/com/pay/controller/weChat/WeChatPayNoticeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,8 +86,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pay.util.weChat" />
-      <recent name="com.pay.util.ali" />
+      <recent name="com.pay.controller" />
+      <recent name="com.pay.factory" />
+      <recent name="com.pay.service.impl" />
+      <recent name="com.pay.bean.constant" />
+      <recent name="com.pay.service" />
     </key>
   </component>
   <component name="RunManager">
@@ -151,6 +126,7 @@
       <updated>1588411231060</updated>
       <workItem from="1588411235587" duration="2773000" />
       <workItem from="1588416371095" duration="6404000" />
+      <workItem from="1593933808321" duration="580000" />
     </task>
     <task id="LOCAL-00001" summary="支付宝支付(app支付和h5支付)">
       <created>1588420313313</created>
@@ -167,32 +143,39 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="支付宝支付(app支付和h5支付)" />
-    <option name="LAST_COMMIT_MESSAGE" value="支付宝支付(app支付和h5支付)" />
+    <MESSAGE value="策略模式优化支付代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式优化支付代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1823" y="113" key="CommitChangelistDialog2" timestamp="1588420312302">
+    <state x="1719" y="94" key="CommitChangelistDialog2" timestamp="1593934375777">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
+    <state x="1719" y="94" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593934375777" />
     <state x="1823" y="113" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1588420312302" />
-    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1588416394395">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1593933826254">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593933826254" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1588416394395" />
-    <state width="1877" height="220" key="GridCell.Tab.0.bottom" timestamp="1588422785192">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1323" height="142" key="GridCell.Tab.0.bottom" timestamp="1593934379148">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593934379148" />
     <state width="1877" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1588422785192" />
-    <state width="1877" height="220" key="GridCell.Tab.0.center" timestamp="1588422785192">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1323" height="142" key="GridCell.Tab.0.center" timestamp="1593934379148">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="142" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593934379148" />
     <state width="1877" height="220" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1588422785192" />
-    <state width="1877" height="220" key="GridCell.Tab.0.left" timestamp="1588422785192">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1323" height="142" key="GridCell.Tab.0.left" timestamp="1593934379148">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="142" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593934379148" />
     <state width="1877" height="220" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1588422785192" />
-    <state width="1877" height="220" key="GridCell.Tab.0.right" timestamp="1588422785192">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1323" height="142" key="GridCell.Tab.0.right" timestamp="1593934379148">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="142" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593934379148" />
     <state width="1877" height="220" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1588422785192" />
     <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1588422784908">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -234,10 +217,11 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1588420320469" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588411235135">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1876" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1593933808932">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1588411235135" />
+    <state x="1876" y="269" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1593933808932" />
     <state x="57" y="65" key="new project wizard" timestamp="1588411434987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
